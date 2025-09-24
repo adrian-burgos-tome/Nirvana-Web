@@ -1,0 +1,109 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(246, 255, 0);
+}
+
+/* Estilos del menú de navegación */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover, .navbar ul li a.active {
+    background-color: #575757;
+}
+
+/* Estilos de la galería de videos */
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.video {
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.video p {
+    margin-top: 8px;
+    color: rgb(246, 255, 0);
+    font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 24px 0 12px 0;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+footer a {
+    color: #ffe680;
+    text-decoration: none;
+    margin: 0 12px;
+    display: inline-block;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #fff;
+}
+@media (max-width: 600px) {
+    footer {
+        font-size: 0.95rem;
+        padding: 18px 0 8px 0;
+    }
+    footer a {
+        display: block;
+        margin: 8px 0;
+    }
+}

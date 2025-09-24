@@ -1,0 +1,198 @@
+/* Responsive Design */
+@media (max-width: 900px) {
+    header {
+        padding: 60px 10px;
+    }
+    header h1 {
+        font-size: 32px;
+    }
+    section h2 {
+        font-size: 24px;
+    }
+    .album img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 8px 0;
+    }
+    header {
+        padding: 40px 5px;
+    }
+    header h1 {
+        font-size: 22px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    header a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    section {
+        padding: 20px 5px;
+    }
+    section h2 {
+        font-size: 18px;
+    }
+    .album {
+        display: block;
+        margin: 15px auto;
+    }
+    .album img {
+        width: 90vw;
+        max-width: 220px;
+        height: auto;
+    }
+    blockquote {
+        width: 90%;
+        font-size: 16px;
+    }
+    footer {
+        font-size: 14px;
+        padding: 12px 0;
+    }
+}
+    /* Estilos generales */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+        color: #9a9797;
+        line-height: 1.6;
+    }
+   /* Navegación */
+   nav {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+    /* Encabezado principal */
+    header {
+        background: url('https://source.unsplash.com/1600x900/?concert') no-repeat center center/cover;
+        color: yellow;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    header h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+    header p {
+        font-size: 20px;
+        margin: 10px 0 20px;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        background: #222;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    /* Secciones */
+    section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    section h2 {
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+
+    /* Álbumes */
+    .album {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .album img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .album p {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    /* Cita */
+    blockquote {
+        font-style: italic;
+        font-size: 20px;
+        margin: 20px auto;
+        width: 50%;
+        color: #555;
+    }
+
+    /* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 24px 0 12px 0;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+footer a {
+    color: #ffe680;
+    text-decoration: none;
+    margin: 0 12px;
+    display: inline-block;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #fff;
+}
+@media (max-width: 600px) {
+    footer {
+        font-size: 0.95rem;
+        padding: 18px 0 8px 0;
+    }
+    footer a {
+        display: block;
+        margin: 8px 0;
+    }
+}

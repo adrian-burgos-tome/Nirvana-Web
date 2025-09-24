@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Nirvana</title>
+    <link rel="stylesheet" href="css/contacto.css"> <!-- Vincula el CSS externo -->
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="discografia.html">Discografía</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="linea-temporal.html">Linea Temporal</a></li>
+            <li>
+                <a href="tienda.html">Tienda</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Título principal -->
+    <h1>Contáctanos</h1>
+
+    <!-- Formulario de contacto -->
+    <div class="contact-form">
+        <form action="https://formsubmit.co/tu-correo@gmail.com" method="POST">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" placeholder="Escribe el asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
+            </div>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+
+    <!-- Información adicional -->
+    <section class="contact-info">
+        <h2>Otras formas de contactarnos</h2>
+        <p>Si prefieres, puedes seguirnos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/Nirvana/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/off1cial_nirvana/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCFMZHIQMgBXTSxsr86Caazw" target="_blank">YouTube</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Regresa a la <a href="index.html">Página de Inicio</a></p>
+        <p>&copy; 2024 Nirvana Fan Page. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

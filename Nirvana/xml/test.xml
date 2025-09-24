@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<galeria>
+    <foto>
+        <titulo>Concierto en Seattle</titulo>
+        <descripcion>Nirvana en vivo en Seattle, 1992.</descripcion>
+        <ruta>/images/nirvana-imagenes/seattle-1992.jpg</ruta>
+    </foto>
+    <foto>
+        <titulo>Sesión de Estudio</titulo>
+        <descripcion>La banda grabando el álbum Nevermind.</descripcion>
+        <ruta>/images/nirvana-imagenes/estudio-nevermind.jpg</ruta>
+    </foto>
+    <foto>
+        <titulo>MTV Unplugged</titulo>
+        <descripcion>Presentación acústica en MTV Unplugged, 1993.</descripcion>
+        <ruta>/images/nirvana-imagenes/mtv-unplugged.jpg</ruta>
+    </foto>
+</galeria>
